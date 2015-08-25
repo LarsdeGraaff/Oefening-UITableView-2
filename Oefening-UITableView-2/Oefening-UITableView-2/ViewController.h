@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UIView * choosenColor;
+@property (weak, nonatomic) IBOutlet UILabel * chosenFont;
+
+
 
 
 @end
